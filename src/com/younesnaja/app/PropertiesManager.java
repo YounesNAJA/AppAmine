@@ -22,6 +22,6 @@ public abstract class PropertiesManager {
     }
 
     public static String getProperty(String propertyKey){
-        return properties.getProperty(propertyKey).replaceAll(";", "").replaceAll("\"", "");
+        return properties.getProperty(propertyKey);
     }
 }
